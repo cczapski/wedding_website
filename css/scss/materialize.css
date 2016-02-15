@@ -5739,8 +5739,11 @@ small {
 
 .wedding-tag-header {
   margin-top: 1em;
-  font-size: 1.6em; }
+  font-size: 1.4em; }
 
+@media-screen and max-width(1195px) {
+  .wedding-tag-header {
+    font-size: 1.2em; } }
 .wedding-party-title {
   margin-top: 0;
   margin-bottom: 0; }
