@@ -1,7 +1,12 @@
 nav {
+  // position: fixed;
+  // z-index: 9999;
+  // top: 0;
+  // left: 0;
+  // right: 0;
   color: $navbar-font-color;
   @extend .z-depth-1;
-  background-color: $primary-color;
+  background-color: $dkpurple;
   width: 100%;
   height: $navbar-height-mobile;
   line-height: $navbar-height-mobile;
@@ -21,6 +26,11 @@ nav {
   .nav-wrapper {
     position: relative;
     height: 100%;
+
+    ul a {
+      font-family: $lato;
+      font-size: 1em;
+    }
   }
 
   @media #{$large-and-up} {

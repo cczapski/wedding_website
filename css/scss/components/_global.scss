@@ -40,6 +40,31 @@ a {
   }
 }
 
+.text-align-right {
+  display: block;
+  text-align: right;
+}
+
+.text-align-left {
+  text-align: left;
+  margin: 0;
+}
+
+.float-left {
+  display: block;
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.small-width {
+  max-width: 650px;
+  overflow: hidden;
+  margin: 0 auto;
+  padding-top: 30px;
+}
 
 ul {
   padding: 0;
@@ -136,6 +161,28 @@ img.responsive-img,
 video.responsive-video {
   max-width: 100%;
   height: auto;
+}
+
+.photo-frame {
+  max-width: 100%;
+  padding: 4px;
+  background-color: $dkblue;
+  max-width: 250px;
+  height: 250px;
+  margin: 0 auto;
+  display: block;
+}
+
+.photo-frame-tilted {
+  max-width: 100%;
+  padding: 4px;
+  background-color: $dkblue;
+  // border: 1px solid #999;
+  transform: rotate(2deg);
+}
+
+.stonehouse {
+  width: 75%;
 }
 
 
@@ -253,6 +300,11 @@ video.responsive-video {
             transform: translate3d(0,0,0);
     transform: translateX(-50%);
   }
+}
+
+.flower {
+  max-width: 8%;
+  padding-top: 15px;
 }
 
 // Pushpin

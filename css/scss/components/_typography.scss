@@ -24,18 +24,35 @@ html{
 }
 h1, h2, h3, h4, h5, h6 {
 	font-weight: 400;
-	line-height: 1.1;
   font-family: $homemade-apple;
+}
+
+h1 {
+  color: $dkblue;
+  text-shadow: 2px 0px 1px $ltblue;
+}
+
+h2 {
+  color: #ffffff;
+  text-shadow: 2px 0px 1px $ltblue;
+}
+
+h3 {
+  text-shadow: 2px 0px 1px $ltblue;
+}
+
+h4 {
+  color: $dkpurple;
 }
 
 // Header Styles
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
-h1 { font-size: $h1-fontsize; line-height: 110%; margin: ($h1-fontsize / 2) 0 ($h1-fontsize / 2.5) 0;}
-h2 { font-size: $h2-fontsize; line-height: 110%; margin: ($h2-fontsize / 2) 0 ($h2-fontsize / 2.5) 0;}
-h3 { font-size: $h3-fontsize; line-height: 110%; margin: ($h3-fontsize / 2) 0 ($h3-fontsize / 2.5) 0;}
-h4 { font-size: $h4-fontsize; line-height: 110%; margin: ($h4-fontsize / 2) 0 ($h4-fontsize / 2.5) 0;}
-h5 { font-size: $h5-fontsize; line-height: 110%; margin: ($h5-fontsize / 2) 0 ($h5-fontsize / 2.5) 0;}
-h6 { font-size: $h6-fontsize; line-height: 110%; margin: ($h6-fontsize / 2) 0 ($h6-fontsize / 2.5) 0;}
+h1 { font-size: $h1-fontsize; line-height: 1.4; margin: ($h1-fontsize / 2) 0 ($h1-fontsize / 2.5) 0;}
+h2 { font-size: $h2-fontsize; line-height: 1.4; margin: ($h2-fontsize / 2) 0 ($h2-fontsize / 2.5) 0;}
+h3 { font-size: $h3-fontsize; line-height: 1.4; margin: ($h3-fontsize / 2) 0 ($h3-fontsize / 2.5) 0;}
+h4 { font-size: $h4-fontsize; line-height: 1.4; margin: ($h4-fontsize / 2) 0 ($h4-fontsize / 2.5) 0;}
+h5 { font-size: $h5-fontsize; line-height: 1.4; margin: ($h5-fontsize / 2) 0 ($h5-fontsize / 2.5) 0;}
+h6 { font-size: $h6-fontsize; line-height: 1.4; margin: ($h6-fontsize / 2) 0 ($h6-fontsize / 2.5) 0;}
 
 // Text Styles
 em { font-style: italic; }
@@ -43,7 +60,44 @@ strong { font-weight: 500; }
 small { font-size: 75%; }
 .light { font-weight: 300; }
 .thin { font-weight: 200; }
+.italic {
+  font-style: italic;
+}
 
+.wedding-party-header {
+  font-size: 2em;
+  font-style: italic;
+}
+
+.location {
+  font-size: 1.7em;
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
+
+.time {
+  font-size: 1.3em;
+  margin-bottom: 0;
+}
+
+.wedding-tag-header {
+  margin-top: 1em;
+  font-size: 1.6em;
+}
+
+.wedding-party-title {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.wedding-tags {
+  margin-top: 0;
+  margin-bottom: 2.5em;
+}
+
+iframe {
+  margin: 2em;
+}
 
 .flow-text{
   font-weight: 300;
