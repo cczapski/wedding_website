@@ -15,7 +15,7 @@
 }
 // Disabled shared style
 .btn.disabled, .btn-floating.disabled, .btn-large.disabled, .btn:disabled, .btn-large:disabled, .btn-floating:disabled {
-  background-color: $button-bg-color-disabled !important;
+  background-color: $dkblue !important;
   box-shadow: none;
   color: $button-color-disabled !important;
   cursor: default;
@@ -39,16 +39,22 @@
 // Raised Button
 .btn {
   text-decoration:none;
-  color: $button-color-raised;
-  background-color: $button-color;
+  color: #ffffff;
+  background-color: $dkpurple;
   text-align: center;
   letter-spacing: .5px;
   @extend .z-depth-1;
   transition: .2s ease-out;
   cursor: pointer;
+  margin-top: 15px;
+
+  a {
+    color: #ffffff;
+    margin: 0 auto;
+  }
 
   &:hover {
-    background-color: lighten($button-color, 5%);
+    background-color: lighten($dkpurple, 5%);
     @extend .z-depth-1-half;
   }
 }

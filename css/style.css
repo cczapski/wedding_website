@@ -21,7 +21,7 @@ p {
 }
 
 .parallax-container {
-  min-height: 650px;
+  min-height: 750px;
   line-height: 0;
   height: auto;
   color: rgba(255,255,255,.9);
@@ -29,6 +29,23 @@ p {
   .parallax-container .section {
     width: 100%;
   }
+
+.third-parallax {
+  padding-top: 300px;
+}
+
+.last-parallax {
+  padding-top: 400px;
+}
+
+.no-padding {
+  padding: 0;
+  margin: 0;
+}
+
+.hotel {
+  margin-top: 30px;
+}
 
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
@@ -56,4 +73,9 @@ p {
 footer.page-footer {
   margin: 0;
   backround-color: #563951;
+}
+
+footer h2 {
+  font-size: 1.5em;
+  text-shadow: none;
 }

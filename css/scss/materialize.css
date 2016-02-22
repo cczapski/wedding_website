@@ -2013,7 +2013,6 @@ a {
   -webkit-tap-highlight-color: transparent; }
 
 .valign-wrapper {
-  display: flex;
   align-items: center; }
   .valign-wrapper .valign {
     display: block; }
@@ -2187,7 +2186,8 @@ video.responsive-video {
 .parallax-container {
   position: relative;
   overflow: hidden;
-  height: 500px; }
+  height: 500px;
+  padding-top: 100px; }
 
 .parallax {
   position: absolute;
@@ -5661,14 +5661,14 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   color: #54636D;
-  text-shadow: 2px 0px 1px #B8BEC2; }
+  text-shadow: 2px 0px 1px #54636D; }
 
 h2 {
   color: #ffffff;
   text-shadow: 2px 0px 1px #B8BEC2; }
 
 h3 {
-  text-shadow: 2px 0px 1px #B8BEC2; }
+  text-shadow: 2px 0px 1px #54636D; }
 
 h4 {
   color: #563951; }
@@ -6059,7 +6059,7 @@ iframe {
   -webkit-tap-highlight-color: transparent; }
 
 .btn.disabled, .disabled.btn-large, .btn-floating.disabled, .btn-large.disabled, .btn:disabled, .btn-large:disabled, .btn-large:disabled, .btn-floating:disabled {
-  background-color: #DFDFDF !important;
+  background-color: #54636D !important;
   box-shadow: none;
   color: #9F9F9F !important;
   cursor: default; }
@@ -6075,14 +6075,18 @@ iframe {
 
 .btn, .btn-large {
   text-decoration: none;
-  color: #fff;
-  background-color: #26a69a;
+  color: #ffffff;
+  background-color: #563951;
   text-align: center;
   letter-spacing: .5px;
   transition: .2s ease-out;
-  cursor: pointer; }
+  cursor: pointer;
+  margin-top: 15px; }
+  .btn a, .btn-large a {
+    color: #ffffff;
+    margin: 0 auto; }
   .btn:hover, .btn-large:hover {
-    background-color: #2bbbad; }
+    background-color: #65435f; }
 
 .btn-floating {
   display: inline-block;

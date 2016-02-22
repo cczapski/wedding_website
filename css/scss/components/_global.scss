@@ -32,7 +32,7 @@ a {
 
 // Positioning
 .valign-wrapper {
-  display: flex;
+  // display: flex;
   align-items: center;
 
   .valign {
@@ -279,6 +279,7 @@ video.responsive-video {
   position: relative;
   overflow: hidden;
   height: 500px;
+  padding-top: 100px;
 }
 
 .parallax {
@@ -301,6 +302,8 @@ video.responsive-video {
     transform: translateX(-50%);
   }
 }
+
+
 
 .flower {
   max-width: 8%;
