@@ -5673,6 +5673,9 @@ h3 {
 h4 {
   color: #563951; }
 
+.script {
+  font-family: "Homemade Apple", cursive; }
+
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   font-weight: inherit; }
 
@@ -6081,10 +6084,10 @@ iframe {
   letter-spacing: .5px;
   transition: .2s ease-out;
   cursor: pointer;
-  margin-top: 15px; }
+  margin-top: 15px;
+  width: 100%; }
   .btn a, .btn-large a {
-    color: #ffffff;
-    margin: 0 auto; }
+    color: #ffffff; }
   .btn:hover, .btn-large:hover {
     background-color: #65435f; }
 
