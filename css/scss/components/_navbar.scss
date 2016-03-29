@@ -1,9 +1,9 @@
 nav {
-  // position: fixed;
-  // z-index: 9999;
-  // top: 0;
-  // left: 0;
-  // right: 0;
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+  right: 0;
   color: $navbar-font-color;
   @extend .z-depth-1;
   background-color: $dkpurple;

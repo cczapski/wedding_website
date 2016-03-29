@@ -2119,8 +2119,7 @@ video.responsive-video {
 .photo-frame-tilted {
   max-width: 100%;
   padding: 4px;
-  background-color: #54636D;
-  transform: rotate(2deg); }
+  background-color: #54636D; }
 
 .stonehouse {
   width: 75%; }
@@ -5495,6 +5494,11 @@ nav ul a span.badge {
         left: 100%; } }
 
 nav {
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+  right: 0;
   color: #54636D;
   background-color: #563951;
   width: 100%;
