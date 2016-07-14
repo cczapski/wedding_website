@@ -22,8 +22,9 @@ ul {
 }
 
 a {
-	color: $link-color;
+	color: $dkpurple;
 	text-decoration: none;
+  font-weight: 700;
 
   // Gets rid of tap active state
   -webkit-tap-highlight-color: transparent;
@@ -178,7 +179,6 @@ video.responsive-video {
   padding: 4px;
   background-color: $dkblue;
   // border: 1px solid #999;
-  transform: rotate(2deg);
 }
 
 .stonehouse {

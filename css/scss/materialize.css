@@ -2008,8 +2008,9 @@ ul {
   list-style-type: none; }
 
 a {
-  color: #039be5;
+  color: #563951;
   text-decoration: none;
+  font-weight: 700;
   -webkit-tap-highlight-color: transparent; }
 
 .valign-wrapper {
@@ -2116,11 +2117,23 @@ video.responsive-video {
   margin: 0 auto;
   display: block; }
 
+.photo-frame-bangers {
+  width: 100%;
+  padding: 4px;
+  background-color: #54636D;
+  max-width: 425px;
+  margin: 0 auto;
+  display: block;
+}
+
+.left-photo-margin {
+  margin: 10px 30px 0 0;
+}
+
 .photo-frame-tilted {
   max-width: 100%;
   padding: 4px;
-  background-color: #54636D;
-  transform: rotate(2deg); }
+  background-color: #54636D; }
 
 .stonehouse {
   width: 75%; }
@@ -5495,6 +5508,11 @@ nav ul a span.badge {
         left: 100%; } }
 
 nav {
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+  right: 0;
   color: #54636D;
   background-color: #563951;
   width: 100%;

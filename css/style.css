@@ -72,6 +72,10 @@ p {
 }
 
 @media screen and (max-width: 1200px) {
+    #caroline {
+      font-size: 1.3em;
+    }
+
   .registry {
     width: 100%;
     float: none;
@@ -79,7 +83,7 @@ p {
 
   .store {
     max-width: 100%;
-    max-width: 350px;
+    max-width: 300px;
   }
 
   .macys {
@@ -87,14 +91,73 @@ p {
   }
 }
 
+@media only screen and (max-width: 1020px) {
+   #image3 {
+    left: 300px;
+  }
+
+}
+
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
     position: absolute;
-    top: 10%;
+    top: 50px;
   }
   #index-banner .section {
-    top: 10%;
+    top: 20%;
   }
+
+  iframe {
+    width: 90%;
+    margin: 2em auto;
+  }
+}
+
+@media only screen and (max-width: 725px) {
+    .address {
+      display: inline-block;
+      float: none;
+      margin-bottom: 2em;
+      text-align: center;
+    }
+
+    .stonehouse {
+      margin: 0;
+    }
+
+    #image3 {
+      background-image: center;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  h3 {
+    font-size: 2.5rem;
+    margin: 0 0.5em;
+  }
+
+  .parallax-container {
+    top: 43px;
+  }
+
+  #image1 {
+    right: 200px;
+  }
+
+  #image3 {
+    left: 600px;
+    top: -150px;
+  }
+
+  #image6 {
+    left: 375px;
+  }
+
 }
 
 @media only screen and (max-width : 600px) {
@@ -106,6 +169,7 @@ p {
 .icon-block {
   padding: 0 15px;
 }
+
 .icon-block .material-icons {
   font-size: inherit;
 }

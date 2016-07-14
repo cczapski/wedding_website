@@ -5,7 +5,7 @@
       var defaults = {
         menuWidth: 240,
         edge: 'left',
-        closeOnClick: false
+        closeOnClick: true
       };
       options = $.extend(defaults, options);
 
