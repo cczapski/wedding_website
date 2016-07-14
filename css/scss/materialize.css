@@ -2008,8 +2008,9 @@ ul {
   list-style-type: none; }
 
 a {
-  color: #039be5;
+  color: #563951;
   text-decoration: none;
+  font-weight: 700;
   -webkit-tap-highlight-color: transparent; }
 
 .valign-wrapper {
@@ -2115,6 +2116,19 @@ video.responsive-video {
   height: 250px;
   margin: 0 auto;
   display: block; }
+
+.photo-frame-bangers {
+  width: 100%;
+  padding: 4px;
+  background-color: #54636D;
+  max-width: 425px;
+  margin: 0 auto;
+  display: block;
+}
+
+.left-photo-margin {
+  margin: 10px 30px 0 0;
+}
 
 .photo-frame-tilted {
   max-width: 100%;
